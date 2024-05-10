@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+    color: #e5e7eb;
+    background-image: url("./img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.app{
+    max-width: 600px;
+    background-color: #111827;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #374151;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.todo-list{
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+button{
+    padding: 5px 10px;
+    margin: 0 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4b5563;
+    color: #e5e7eb;
+    border: none;
+    opacity: .8;
+    transition: .3s;
+}
+.complete{
+    background-color: #5cb85c;
+}
+.complete:hover{
+    opacity: 1;
+}
+.delete{
+    background-color: red;
+}
+.delete:hover{
+    opacity: 1;
+}
+/* Form */
+.todo-form{
+   padding-bottom: 1.5rem; 
+}
+input,select{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
